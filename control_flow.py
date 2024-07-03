@@ -21,7 +21,7 @@ d=range(2,11,2)
 print(list(b))
 print(list(c))
 print(list(d))
-# =========================================
+# ============ for Loop ==================
 
 my_list=[]
 for i in range(2,11,2):
@@ -45,3 +45,55 @@ for i in my_str:
 print(total_char)
 print(Vowel)
 print(Consonent)
+
+# ============= While Loop =============
+
+n=int (input("Enter no."))
+i=1
+sum=0
+while i<=n:
+     if i==n:
+         print(i,end="=")
+     else:
+         print(i,end="+")
+         sum=sum+i
+     i=i+1
+print(sum)
+# ==============Even No================
+
+n=int (input("Enter no."))
+i=1
+sum=0
+while i<=n:
+     if i%2==0:
+         print(i,end=",") 
+     i=i+1
+# ============ Factorial =================
+
+n=int (input("Enter no."))
+i=1
+multi=1
+while i<=n:
+     multi=multi*n
+     if i<n:
+         print(n,end="x")
+          
+     else:
+         print(n,end="=")
+         
+     n=n-1
+print(multi)
+
+# =============== Multiple ==============
+n=int (input("Enter no."))
+i=1
+multi=1
+while i<=n:
+     multi=multi*i
+     if i==n:
+         print(i,end="=") 
+     else:
+         print(i,end="x")
+         
+     i=i+1
+print(multi)
