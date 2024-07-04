@@ -84,7 +84,7 @@ while i<=n:
      n=n-1
 print(multi)
 
-# =============== Multiple ==============
+# =================== Multiple ===================
 n=int (input("Enter no."))
 i=1
 multi=1
@@ -97,3 +97,59 @@ while i<=n:
          
      i=i+1
 print(multi)
+
+# ================== Swaping =====================
+x=20
+y=10
+print(x,y)
+z=x
+x=y
+y=z
+print(x,y)
+# ================== Swaping By Multiplacation and Division ==================
+x=int(input("Enter first no"))
+y=int(input("Enter Second no"))
+print("Before Swap:",x,y)
+x=x*y
+y=x/y
+x=x/y
+print("After Swap:",x,y)
+
+# ================== Swaping By Addition and Substraction ==================
+x=int(input("Enter first no"))
+y=int(input("Enter Second no"))
+print("Before Swap:",x,y)
+x=x+y
+y=x-y
+x=x-y
+print("After Swap:",x,y)
+
+# ================== Swaping By without using third variable ==================
+
+x=int(input("Enter first no"))
+y=int(input("Enter Second no"))
+print("Before Swap:",x,y)
+x,y=y,x
+print("After Swap:",x,y)
+
+# ======================= Armstronng Numbers ====================
+
+n=int(input("Enter first no"))
+m,p=n,n
+sum=0
+count=0
+while n>0:
+    count=count+1
+    n=n//10
+print("Count:",count)
+while m>0:
+    last=m%10
+    sum=sum+last**count
+    m=m//10
+if sum==p:
+    print("Armstrong No.")
+else:
+    print("Not Armtrong No.")
+
+# ===============================================================
+
