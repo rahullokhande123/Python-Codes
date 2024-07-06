@@ -235,3 +235,49 @@ while i<=n:
     i=i+1
 
 # =============================================
+# (Pettern-5)
+# *****
+#  ****
+#   ***
+#    **
+#     *
+# Solve:-
+n=int(input("Enter Rows"))
+i=0
+while i<=n:
+    print(i*" "+(n-i)*"*")
+    i=i+1
+
+# ============================================
+
+# (Pettern-6)
+# *****
+# **** 
+# ***  
+# **   
+# *
+# Solve:-
+n=int(input("Enter Rows"))
+i=0
+while i<=n:
+    print((n-i)*"*"+i*" ")
+    i=i+1
+
+# ================== Fibona Series ======================
+
+# Solve:-
+n=int(input("Enter Any No"))
+a=0
+b=1
+print(a,end=',')
+print(b,end=',')
+i=1
+while i<=n-2:
+    c=a+b
+    a=b
+    b=c
+    if i<n-2:
+        print(c,end=',')
+    else:
+        print(c)
+    i=i+1
