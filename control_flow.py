@@ -151,5 +151,87 @@ if sum==p:
 else:
     print("Not Armtrong No.")
 
-# ===============================================================
+# =========== Palindrom Numbers With The Help Of Slice Method =============
 
+n=input("Enter Number : ")
+m=n[::-1]
+if n==m:
+    print("Palindrom Number")
+else:
+    print("Not Palindrom Number")
+
+# =========== Palindrom Numbers Without Slice Method =============
+
+n=int(input("Enter Number : "))
+sum,x=0,n
+while n>0:
+    rev=n%10
+    sum=sum*10+rev
+    n=n//10
+print(sum)
+print(n)
+print(x)
+if x==sum:
+    print("Palindrom")
+else:
+    print("Not Palindrom")
+
+# ==================== Pettern ===========================
+#(Pettern-1)
+# *
+# **
+# ***
+# ****
+# *****
+ 
+# Solve:-
+
+n=int(input("Enter Rows"))
+i=1
+while i<=n:
+    print(i*'*'+(n-i)*(' '))
+    i=i+1
+
+#(Pettern-2)
+# *****
+# ****
+# ***
+# **
+# *
+# Solve:- 
+n=int(input("Enter Rows"))
+i=1
+while i<=n:
+    print((n-i)*(' ')+i*'*')
+    i=i+1
+# ===========================================
+#(Pettern-3)
+#      *
+#     * * 
+#    * * *
+#   * * * *
+# 
+# Solve:-
+n=int(input("Enter Rows"))
+i=1
+while i<=n:
+    print((n-i)*(' ')+i*' *')
+    i=i+1
+
+# ============================================
+#(Pettern-4)
+ #       *
+  #     ***
+  #    *****
+  #   *******
+  #  *********
+# 
+# Solve:-
+
+n=int(input("Enter Rows"))
+i=1
+while i<=n:
+    print((n-i)*(' ')+(2*i-1)*'*')
+    i=i+1
+
+# =============================================
