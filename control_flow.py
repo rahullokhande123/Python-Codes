@@ -281,3 +281,28 @@ while i<=n-2:
     else:
         print(c)
     i=i+1
+
+
+# ===================== Function ==========================
+
+def add(x,y,z):
+    return x+y+z
+p=int(input("enter number"))
+q=int(input("enter number"))
+r=int(input("enter number"))
+      
+x=add(10,20,30)
+print(x)
+n=x+100
+print(x)
+
+# ======================= Function ==========================
+
+def add(x,y):
+    return x+y,x-y,x*y,x/y,x%y,x//y
+p=int(input("enter number"))
+q=int(input("enter number"))
+# r=int(input("enter number"))
+      
+a,b,c,d,e,f=add(p,q)
+print(a,b,c,d,e,f)
