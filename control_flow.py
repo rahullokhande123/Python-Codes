@@ -294,7 +294,7 @@ r=int(input("enter number"))
 x=add(10,20,30)
 print(x)
 n=x+100
-print(x)
+print(n)
 
 # ======================= Function ==========================
 
@@ -306,3 +306,50 @@ q=int(input("enter number"))
       
 a,b,c,d,e,f=add(p,q)
 print(a,b,c,d,e,f)
+
+# ============== Positional Aargument ===============
+# Exp:-
+def add(y,x):
+    return x+y
+add=add(4,5)
+print(add)
+
+# =============== Default Argument =================
+# Exp:-
+def add(x=0,y=0,z=0):
+    return x+y+z
+# add=add()
+# print(add)
+# add1=add(10)
+# print(add1)
+add2=add(10,20)
+print(add2)
+
+# ============= Keyword Argument ============
+# Exp:-
+def add(x,y,z):
+    return x+y+z
+add=add(y=5,z=10,x=2)
+print(add)
+
+# ================ Single Star Argument ===============
+
+def add(*n):
+    print(n)
+    sum=0
+    for i in n:
+        sum=sum+i
+    return sum
+x=add(5)
+print(x)
+y=add(10,20,30,40,50,60)
+print(y)
+
+# ================= Double Star Keyword ==============
+
+def student_d(**keyword):
+    print(keyword)
+    print(type(keyword))
+    for k,v in keyword.items():
+        print(k,"=",v)
+student_d(name="Rahul",age=24,qualification="BBA")
