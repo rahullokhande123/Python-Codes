@@ -353,3 +353,54 @@ def student_d(**keyword):
     for k,v in keyword.items():
         print(k,"=",v)
 student_d(name="Rahul",age=24,qualification="BBA")
+
+# ================= Scope ===================
+
+# What is scop 
+# type-> global, local
+# type in variable->gloable variable, Local variable.
+
+# Exp:-
+
+x=10 # -> Gloable Variable
+def display():
+    x=20 # -> Local Variable
+    return x
+y=display()
+print("value of inner x=",y)
+print("value of inner x=",x)
+
+# Exp-2:-
+x=10
+def display():
+    # x=20
+    return x
+y=display()
+print("value of inner x=",y)
+print("value of inner x=",x)
+
+# ================= Local variable ko gloable me cunvert krna jisse hm uska 
+# globaly kahi pr bhi use kr sake;
+
+# Gloable variable ko hm local variable bol sakte h
+# but bina global keyword ke local variable ko gloable variable nhi bol sakte h
+x=10
+def display():
+    global x
+    x=20
+    return x
+y=display()
+print("value of inner x=",y)
+print("value of inner x=",x)
+
+# ============ Gloable variable name ko hm f() ke ander same name ko use kr sakte h
+# with the help of globals['variable name']
+
+axix=10
+def display():
+    x=20
+    print(globals()['axix'])
+y=display()
+
+print("value of inner x=",axix)
+display()
