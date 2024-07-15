@@ -1,4 +1,4 @@
-my_dict=dict()   #Rsse blank dict ban jata h
+my_dict=dict()   #Esse blank dict ban jata h
 print(my_dict) 
 print(id(my_dict))
 print(type(my_dict))
@@ -42,3 +42,8 @@ print(my_dict.get('Class','Guest'))  # Esse  Hm key ki value le sakte h or defau
 # print(my_dict["key",Guest]) # Es Condition Me Error Throgh Krega 
 
 print(my_dict.pop("Class"))
+
+# b=int(input("enter number"))
+# h=int(input("enter num"))
+# area=b*h*0.5
+# print("Area:",area)

@@ -22,22 +22,22 @@
 
 # =================================================
 
-my_str2="Rahul"
-print(len(my_str2))
-print(max(my_str2))
-print(min(my_str2))
-print(type(my_str2))
-print(id(my_str2))
-print(ord(max(my_str2)))
-print(my_str2.upper())
-# print(my_str2.center(40"#"))
-x="abc"
-print(' '.join(x))
-y='123'
-print(x.join(y))
-print('---'.join(y))
+# my_str2="Rahul"
+# print(len(my_str2))
+# print(max(my_str2))
+# print(min(my_str2))
+# print(type(my_str2))
+# print(id(my_str2))
+# print(ord(max(my_str2)))
+# print(my_str2.upper())
+# # print(my_str2.center(40"#"))
+# x="abc"
+# print(' '.join(x))
+# y='123'
+# print(x.join(y))
+# print('---'.join(y))
 
-# ============== Split =============
+# # ============== Split =============
 
 str="Python is a programming language"
 print(str.split(" "))
