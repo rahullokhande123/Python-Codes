@@ -42,4 +42,49 @@ print(z)
 z.sort(reverse=True)
 print(z)
 
+# ========== Q1 Capital First Letter ===========
+
+lis = ["we","are","here","to","revise","python"]
+
+for i in range(0,len(lis)):
+    lis[i]=lis[i].capitalize()
+print(lis)
+
+# # ========== Capital All Letters ===========
+
+lis = ["we","are","here","to","revise","python"]
+
+for i in range(0,len(lis)):
+    lis[i]=lis[i].upper()
+print(lis)
+
+# # ========== Capital All Letters ===========
+
+lis = ["we","are","here","to","revise","python"]
+
+for i in range(0,len(lis)):
+    lis[i]=lis[i][0].upper() + lis[i][1:]
+print(lis)
+
+# ============== Q2 Palindrom ===============
+# WAP to create a new list with the help of list 
+# lis such that it contain only palindrome string which has a length more then 2.
+
+lis=["ababa","nitin","we","new","ww","a","aaaa"]
+lis1=[]
+for i in lis:
+    if i==i[::-1] and len(i)>2:
+        lis1.append(i)
+print(lis1)
+
+# Seconde Way :-
+# for i in range(len(lis)):
+#     if lis[i]==lis[i][::-1] and len (lis[i])>2:
+#         lis1.append(lis[i])
+# print(lis1)
+
+
+
+
+
 
