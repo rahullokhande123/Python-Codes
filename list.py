@@ -85,18 +85,18 @@
 
 # ===================== Find Max Marks ========================
 
-# name= ["ajay","aman","akash","sonam","radha"]
-# address=["bhopal","ujjain","bhopal","ratlam","agra"]
-# st_marks= [45,56,35,56,12]
-# mx=max(st_marks)
-# count=st_marks.count(mx)
-# # print(count)
-# index=-1
-# for i in range(count):
-#     index=st_marks.index(mx,index+1)
-#     print("Student Name:",name[index])
-#     print("Student Address:",address[index])
-#     print("Student Marks:",st_marks[index])
+name= ["ajay","aman","akash","sonam","radha"]
+address=["bhopal","ujjain","bhopal","ratlam","agra"]
+st_marks= [45,56,35,56,12]
+mx=max(st_marks)
+count=st_marks.count(mx)
+# print(count)
+index=-1
+for i in range(count):
+    index=st_marks.index(mx,index+1)
+    print("Student Name:",name[index])
+    print("Student Address:",address[index])
+    print("Student Marks:",st_marks[index])
 
 # WAP to create following list at runtime and placed them all in single list.(list of list)
 # ==================== Create List Of List ====================
