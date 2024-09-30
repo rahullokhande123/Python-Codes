@@ -49,4 +49,7 @@ print(id(z2))     #id ka use hm ->  variable ka address show krne ke liye
 print(type(z3))
 print(id(z3))
 
-
+# this function handle all converted numbers
+# a=eval(input("Enter Value"))
+# b=eval(input("Enter Value"))
+# print(a+b)
