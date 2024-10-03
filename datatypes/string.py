@@ -9,3 +9,16 @@ print(my_str2)
 print(type(my_str))
 print(type(my_str1))
 print(type(my_str2))
+
+
+
+
+
+
+
+
+
+
+
+
+
