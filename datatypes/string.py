@@ -15,7 +15,8 @@ str2_len=len(my_str)
 print(str2_len)
 print(type(str2_len))
 
-
+my_ord=ord('R')
+print(my_ord)
 
 
 
