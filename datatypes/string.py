@@ -21,9 +21,12 @@ print(my_ord)
 my_chr=chr(82)
 print(my_chr)
 
+# ============== Oprators Allowted ==========
 
-
-
+str1="Rahul"
+str2="Lokhande"
+str_adition=str1+" "+str2
+print(str_adition)
 
 
 
