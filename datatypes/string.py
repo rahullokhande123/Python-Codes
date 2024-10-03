@@ -18,7 +18,8 @@ print(type(str2_len))
 my_ord=ord('R')
 print(my_ord)
 
-
+my_chr=chr(82)
+print(my_chr)
 
 
 
