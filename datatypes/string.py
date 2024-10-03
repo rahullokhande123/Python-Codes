@@ -28,5 +28,7 @@ str2="Lokhande"
 str_adition=str1+" "+str2
 print(str_adition)
 
-
+n=3
+str_multi=str1*n
+print(str_multi)
 
