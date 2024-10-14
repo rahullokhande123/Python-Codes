@@ -8,3 +8,12 @@ print(my_list.index("Rahul"))
 # print(name.index("H",2))
 # print(name.index("H",2,5))
 # # print(name.index("H",(name.index("H")+1)))
+
+
+
+# l=["Rahul","Salu","Ankur","Rahul","Ankur"]
+# print(l)
+# n=frozenset(l)
+# x=set(l)
+# print("Not Duplicate",n)
+# print("Not Duplicate",x)
